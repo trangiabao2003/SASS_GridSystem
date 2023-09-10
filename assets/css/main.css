@@ -133,8 +133,7 @@ table {
   border-spacing: 0;
 }
 
-.col, .row[class*=row-cols-] > *,
-.row [class*=col-], .container-fluid, .container {
+.row > *, .container-fluid, .container {
   padding-left: calc(var(--grid-gutter-x) * 0.5);
   padding-right: calc(var(--grid-gutter-x) * 0.5);
 }
@@ -154,10 +153,6 @@ table {
   margin-left: calc(var(--grid-gutter-x) * 0.5 * -1);
   margin-right: calc(var(--grid-gutter-x) * 0.5 * -1);
 }
-.row[class*=row-cols-] > *,
-.row [class*=col-] {
-  flex: 0 0 auto;
-}
 .row > * {
   margin-top: var(--grid-gutter-y);
 }
@@ -167,74 +162,92 @@ table {
 }
 
 .row-cols-1 > * {
+  flex: 0 0 auto;
   width: 100%;
 }
 
 .row-cols-2 > * {
+  flex: 0 0 auto;
   width: 50%;
 }
 
 .row-cols-3 > * {
+  flex: 0 0 auto;
   width: 33.3333333333%;
 }
 
 .row-cols-4 > * {
+  flex: 0 0 auto;
   width: 25%;
 }
 
 .row-cols-5 > * {
+  flex: 0 0 auto;
   width: 20%;
 }
 
 .row-cols-6 > * {
+  flex: 0 0 auto;
   width: 16.6666666667%;
 }
 
 .col-1 {
+  flex: 0 0 auto;
   width: 8.3333333333%;
 }
 
 .col-2 {
+  flex: 0 0 auto;
   width: 16.6666666667%;
 }
 
 .col-3 {
+  flex: 0 0 auto;
   width: 25%;
 }
 
 .col-4 {
+  flex: 0 0 auto;
   width: 33.3333333333%;
 }
 
 .col-5 {
+  flex: 0 0 auto;
   width: 41.6666666667%;
 }
 
 .col-6 {
+  flex: 0 0 auto;
   width: 50%;
 }
 
 .col-7 {
+  flex: 0 0 auto;
   width: 58.3333333333%;
 }
 
 .col-8 {
+  flex: 0 0 auto;
   width: 66.6666666667%;
 }
 
 .col-9 {
+  flex: 0 0 auto;
   width: 75%;
 }
 
 .col-10 {
+  flex: 0 0 auto;
   width: 83.3333333333%;
 }
 
 .col-11 {
+  flex: 0 0 auto;
   width: 91.6666666667%;
 }
 
 .col-12 {
+  flex: 0 0 auto;
   width: 100%;
 }
 
@@ -351,57 +364,75 @@ table {
     max-width: 540px;
   }
   .row-cols-breakpoint-1 > * {
+    flex: 0 0 auto;
     width: 100%;
   }
   .row-cols-breakpoint-2 > * {
+    flex: 0 0 auto;
     width: 50%;
   }
   .row-cols-breakpoint-3 > * {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .row-cols-breakpoint-4 > * {
+    flex: 0 0 auto;
     width: 25%;
   }
   .row-cols-breakpoint-5 > * {
+    flex: 0 0 auto;
     width: 20%;
   }
   .row-cols-breakpoint-6 > * {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
   }
   .col-breakpoint-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-3 {
+    flex: 0 0 auto;
     width: 25%;
   }
   .col-breakpoint-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .col-breakpoint-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
   }
   .col-breakpoint-6 {
+    flex: 0 0 auto;
     width: 50%;
   }
   .col-breakpoint-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
   }
   .col-breakpoint-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
   }
   .col-breakpoint-9 {
+    flex: 0 0 auto;
     width: 75%;
   }
   .col-breakpoint-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
   }
   .col-breakpoint-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
   }
   .col-breakpoint-12 {
+    flex: 0 0 auto;
     width: 100%;
   }
   .offset-breakpoint-0 {
@@ -494,57 +525,75 @@ table {
     max-width: 720px;
   }
   .row-cols-breakpoint-1 > * {
+    flex: 0 0 auto;
     width: 100%;
   }
   .row-cols-breakpoint-2 > * {
+    flex: 0 0 auto;
     width: 50%;
   }
   .row-cols-breakpoint-3 > * {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .row-cols-breakpoint-4 > * {
+    flex: 0 0 auto;
     width: 25%;
   }
   .row-cols-breakpoint-5 > * {
+    flex: 0 0 auto;
     width: 20%;
   }
   .row-cols-breakpoint-6 > * {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
   }
   .col-breakpoint-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-3 {
+    flex: 0 0 auto;
     width: 25%;
   }
   .col-breakpoint-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .col-breakpoint-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
   }
   .col-breakpoint-6 {
+    flex: 0 0 auto;
     width: 50%;
   }
   .col-breakpoint-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
   }
   .col-breakpoint-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
   }
   .col-breakpoint-9 {
+    flex: 0 0 auto;
     width: 75%;
   }
   .col-breakpoint-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
   }
   .col-breakpoint-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
   }
   .col-breakpoint-12 {
+    flex: 0 0 auto;
     width: 100%;
   }
   .offset-breakpoint-0 {
@@ -637,57 +686,75 @@ table {
     max-width: 960px;
   }
   .row-cols-breakpoint-1 > * {
+    flex: 0 0 auto;
     width: 100%;
   }
   .row-cols-breakpoint-2 > * {
+    flex: 0 0 auto;
     width: 50%;
   }
   .row-cols-breakpoint-3 > * {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .row-cols-breakpoint-4 > * {
+    flex: 0 0 auto;
     width: 25%;
   }
   .row-cols-breakpoint-5 > * {
+    flex: 0 0 auto;
     width: 20%;
   }
   .row-cols-breakpoint-6 > * {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
   }
   .col-breakpoint-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-3 {
+    flex: 0 0 auto;
     width: 25%;
   }
   .col-breakpoint-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .col-breakpoint-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
   }
   .col-breakpoint-6 {
+    flex: 0 0 auto;
     width: 50%;
   }
   .col-breakpoint-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
   }
   .col-breakpoint-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
   }
   .col-breakpoint-9 {
+    flex: 0 0 auto;
     width: 75%;
   }
   .col-breakpoint-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
   }
   .col-breakpoint-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
   }
   .col-breakpoint-12 {
+    flex: 0 0 auto;
     width: 100%;
   }
   .offset-breakpoint-0 {
@@ -780,57 +847,75 @@ table {
     max-width: 1140px;
   }
   .row-cols-breakpoint-1 > * {
+    flex: 0 0 auto;
     width: 100%;
   }
   .row-cols-breakpoint-2 > * {
+    flex: 0 0 auto;
     width: 50%;
   }
   .row-cols-breakpoint-3 > * {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .row-cols-breakpoint-4 > * {
+    flex: 0 0 auto;
     width: 25%;
   }
   .row-cols-breakpoint-5 > * {
+    flex: 0 0 auto;
     width: 20%;
   }
   .row-cols-breakpoint-6 > * {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
   }
   .col-breakpoint-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-3 {
+    flex: 0 0 auto;
     width: 25%;
   }
   .col-breakpoint-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .col-breakpoint-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
   }
   .col-breakpoint-6 {
+    flex: 0 0 auto;
     width: 50%;
   }
   .col-breakpoint-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
   }
   .col-breakpoint-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
   }
   .col-breakpoint-9 {
+    flex: 0 0 auto;
     width: 75%;
   }
   .col-breakpoint-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
   }
   .col-breakpoint-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
   }
   .col-breakpoint-12 {
+    flex: 0 0 auto;
     width: 100%;
   }
   .offset-breakpoint-0 {
@@ -923,57 +1008,75 @@ table {
     max-width: 1320px;
   }
   .row-cols-breakpoint-1 > * {
+    flex: 0 0 auto;
     width: 100%;
   }
   .row-cols-breakpoint-2 > * {
+    flex: 0 0 auto;
     width: 50%;
   }
   .row-cols-breakpoint-3 > * {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .row-cols-breakpoint-4 > * {
+    flex: 0 0 auto;
     width: 25%;
   }
   .row-cols-breakpoint-5 > * {
+    flex: 0 0 auto;
     width: 20%;
   }
   .row-cols-breakpoint-6 > * {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
   }
   .col-breakpoint-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
   }
   .col-breakpoint-3 {
+    flex: 0 0 auto;
     width: 25%;
   }
   .col-breakpoint-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
   }
   .col-breakpoint-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
   }
   .col-breakpoint-6 {
+    flex: 0 0 auto;
     width: 50%;
   }
   .col-breakpoint-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
   }
   .col-breakpoint-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
   }
   .col-breakpoint-9 {
+    flex: 0 0 auto;
     width: 75%;
   }
   .col-breakpoint-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
   }
   .col-breakpoint-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
   }
   .col-breakpoint-12 {
+    flex: 0 0 auto;
     width: 100%;
   }
   .offset-breakpoint-0 {
